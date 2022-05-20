@@ -2,6 +2,7 @@ body{
     background-color: rgb(47,49,54);
     margin: 0px;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     color: rgb(237,237,237);
     font-family: Trebuchet MS, sans-serif;
@@ -185,7 +186,6 @@ header{
 }
 
 main{
-    margin-left: 20%;
     background-color: rgb(41,43,47);
     flex: 0 0 60%;
     padding: 5px 10px;
