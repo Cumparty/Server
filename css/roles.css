@@ -1,0 +1,150 @@
+main ul li{
+    display: flex;
+}
+.roles-gif{
+    padding: 10px 0px 10px 7px;
+}
+.roles-gif img{
+    border-radius: 5px;
+}
+.role-text{
+    margin-top: 16px;
+}
+.roles-competition{
+    margin-top: 3px;
+}
+.more-about-clans{
+    margin-top: 3px;
+}
+.role{
+    margin-top: 15px;
+    border-radius: 3px;
+    font-size: 16px;
+    width: auto;
+    padding: 1px 3px 3px 2px;
+}
+.plebey{
+    color:rgb(93,119,133);
+    background-color: rgba(93,119,133, 0.2);
+    /* width: 69px;*/
+}
+.gremlin{
+    color:#5398be;
+    background-color: rgba(83,152,190, 0.2);
+    /* width: 100px;*/
+}
+.kiska{
+    color:#d47daf;
+    background-color: rgba(212,125,175, 0.2);
+    /* width: 76px;*/
+}
+.turbo-gnom{
+    color:rgb(49,166,88);
+    background-color: rgba(49,166,88, 0.2);
+    /* width: 121px;*/
+}
+.streamer{
+    color: rgb(113,54,138);
+    background-color: rgba(113,54,138, 0.2);
+    /* width: 90px;*/
+}
+.neadekvat{
+    color:black;
+    background-color: rgba(0, 0,0, 0.2);
+    /* width: 90px;*/
+}
+.sgc{
+    color:rgb(206,99,144);
+    background-color: rgba(206,99,144, 0.2);
+    /* width: 68px;*/
+}
+.clan163{
+    color:rgb(197,153,111);
+    background-color: rgba(197,153,111, 0.2);
+    /* width: 40px;*/
+}
+.balabol{
+    color:rgb(205,72,59);
+    background-color: rgba(205,72,59, 0.2);
+    /* width: 99px;*/
+}
+.batya-chata{
+    color:rgb(108,54,131);
+    background-color: rgba(108,54,131, 0.2);
+    /* width: 97px;*/
+}
+.postoyalec{
+    color:rgb(46,203,112);
+    background-color: rgba(46,203,112, 0.2);
+    /* width: 112px;*/
+}
+.batya-voisa{
+    color:rgb(164,22,84);
+    background-color: rgba(164,22,84, 0.2);
+    /* width: 108px;*/
+}
+.partner{
+    color:rgb(153,45,34);
+    background-color: rgba(153,45,34, 0.2);
+    /* width: 120px;*/
+}
+.sponsor{
+    color:rgb(118,26,214);
+    background-color: rgba(118,26,214, 0.2);
+    /* width: 98px;*/
+}
+
+.redactor{
+    color:rgb(123,0,179);
+    background-color: rgba(123,0,179, 0.2);
+    /* width: 106px;*/
+}
+.pro-redactor{
+    color:#982dc2;
+    background-color: rgba(152,45,194, 0.2);
+    /* width: 106px;*/
+}
+.moder{
+    color:rgb(202,31,255);
+    background-color: rgba(202,31,255, 0.2);
+    /* width: 115px;*/
+}
+.admin{
+    color:rgb(188,142,230);
+    background-color: rgba(188,142,230, 0.2);
+    /* width: 139px;*/
+}
+.owner{
+    color:rgb(217,163,255);
+    background-color: rgba(217,163,255, 0.2);
+    /* width: 139px;*/
+}
+
+/* mobile version */
+
+@media screen and (min-width: 280px) and (max-width: 415px){
+    .roles-article{
+        background-color: rgb(47,49,54);
+        border-radius: 3px;
+        border-left: 2px solid rgb(192,77,254);
+        padding: 1px 0px 1px 3px;
+        margin-top: 10px;
+    }
+    .role-text{
+        margin-top: 7.5px;
+    }
+    .role{
+        margin-top: 6px;
+        font-size: 9px;
+        width:auto;
+        padding: 1px 2px 2px 1px;
+        border-radius: 2px;
+    }
+    .roles-gif{
+        padding: 7px 0px 7px 4px;
+    }
+    .roles-gif img{
+        border-radius: 3px;
+        width: 90%;
+    }
+}

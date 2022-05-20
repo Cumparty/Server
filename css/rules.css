@@ -1,0 +1,44 @@
+ul.navigation{
+    list-style: circle;
+}
+ul.rules li{
+    margin-bottom: 4px;
+}
+.dop-rules{
+    list-style: square;
+}
+.dop-rules li{
+    margin-bottom: 6px;
+}
+.rules-flex{
+    display: flex;
+    margin-top: 5px;
+}
+.rules-flex-text{
+    margin-top: 2px;
+}
+.chat{
+    font-size: 16px;
+    width: auto;
+    padding: 1px 3px 3px 2px;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+.global-chat{
+    color:rgb(222,224,252);
+    background-color: rgba(117,183,243, 0.2);
+}
+
+
+/* mobile version */
+
+
+@media screen and (min-width: 280px) and (max-width: 415px){
+    .chat{
+        font-size: 9px;
+        width: auto;
+        padding: 1px 2px 1px 1px;
+        margin-top: 1px;
+        border-radius: 2px;
+    }
+}
