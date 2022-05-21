@@ -1,6 +1,9 @@
 main ul li{
-    display: flex;
+    margin-top: 10px;
 }
+
+/* main */
+
 .article-roles{
     border-left: 3px solid rgb(192,77,254);
 }
@@ -27,113 +30,98 @@ main ul li{
     width: auto;
     padding: 1px 3px 1px 2px;
 }
+
+/* roles */
+
 .plebey{
     color:rgb(93,119,133);
     background-color: rgba(93,119,133, 0.2);
-    /* width: 69px;*/
 }
 .gremlin{
     color:#5398be;
     background-color: rgba(83,152,190, 0.2);
-    /* width: 100px;*/
 }
 .kiska{
     color:#d47daf;
     background-color: rgba(212,125,175, 0.2);
-    /* width: 76px;*/
 }
 .turbo-gnom{
     color:rgb(0,101,187);
     background-color: rgba(0,101,187, 0.2);
-    /* width: 121px;*/
 }
 .streamer{
     color: rgb(113,54,138);
     background-color: rgba(113,54,138, 0.2);
-    /* width: 90px;*/
 }
 .neadekvat{
     color:black;
     background-color: rgba(0, 0,0, 0.2);
-    /* width: 90px;*/
 }
 .sgc{
     color:rgb(206,99,144);
     background-color: rgba(206,99,144, 0.2);
-    /* width: 68px;*/
 }
 .clan163{
     color:rgb(197,153,111);
     background-color: rgba(197,153,111, 0.2);
-    /* width: 40px;*/
 }
 .balabol{
     color:rgb(205,72,59);
     background-color: rgba(205,72,59, 0.2);
-    /* width: 99px;*/
 }
 .batya-chata{
     color:rgb(108,54,131);
     background-color: rgba(108,54,131, 0.2);
-    /* width: 97px;*/
 }
 .postoyalec{
     color:rgb(46,203,112);
     background-color: rgba(46,203,112, 0.2);
-    /* width: 112px;*/
 }
 .batya-voisa{
     color:rgb(164,22,84);
     background-color: rgba(164,22,84, 0.2);
-    /* width: 108px;*/
 }
 .partner{
     color:rgb(153,45,34);
     background-color: rgba(153,45,34, 0.2);
-    /* width: 120px;*/
 }
 .sponsor{
     color:rgb(118,26,214);
     background-color: rgba(118,26,214, 0.2);
-    /* width: 98px;*/
 }
-
 .redactor{
     color:rgb(123,0,179);
     background-color: rgba(123,0,179, 0.2);
-    /* width: 106px;*/
 }
 .pro-redactor{
     color:#982dc2;
     background-color: rgba(152,45,194, 0.2);
-    /* width: 106px;*/
 }
 .moder{
     color:rgb(202,31,255);
     background-color: rgba(202,31,255, 0.2);
-    /* width: 115px;*/
 }
 .admin{
     color:rgb(188,142,230);
     background-color: rgba(188,142,230, 0.2);
-    /* width: 139px;*/
 }
 .owner{
     color:rgb(217,163,255);
     background-color: rgba(217,163,255, 0.2);
-    /* width: 139px;*/
 }
 
-/* mobile version */
+/* mobile version vertical */
 
 @media screen and (min-width: 280px) and (max-width: 415px){
+    main ul li{
+        margin-top: 6px;
+    }
     .role-text{
         margin-top: 10.5px;
     }
     .role{
         margin-top: 10px;
         font-size: 11px;
-        width:auto;
         padding: 1px 2px 1px 1px;
         border-radius: 2px;
     }
@@ -143,5 +131,21 @@ main ul li{
     .roles-gif img{
         width: 90%;
         border-radius: 3px;
+    }
+}
+
+/* mobile version horizontal */
+
+@media screen and (min-width: 416px) and (max-width: 1141px) {
+    .role{
+        font-size: 14px;
+    }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 1142px) and (max-width: 1919px) {
+    .role{
+        font-size: 15.5px;
     }
 }

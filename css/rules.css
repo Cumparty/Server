@@ -34,13 +34,12 @@ ul.rules li{
 
 
 
-/* mobile version */
+/* mobile version vertical */
 
 
 @media screen and (min-width: 280px) and (max-width: 415px){
     .chat{
         font-size: 11px;
-        width: auto;
         padding: 1px 2px 1px 1px;
         margin-top: 0px;
         border-radius: 2px;
@@ -48,5 +47,21 @@ ul.rules li{
     .rules-img{
         border-radius: 3px;
         width: 90%;
+    }
+}
+
+/* mobile version horizontal */
+
+@media screen and (min-width: 416px) and (max-width: 1141px) {
+    .chat{
+        font-size: 14px;
+    }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 1142px) and (max-width: 1919px) {
+    .chat{
+        font-size: 15.5px;
     }
 }
