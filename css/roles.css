@@ -1,6 +1,9 @@
 main ul li{
     display: flex;
 }
+.article-roles{
+    border-left: 3px solid rgb(192,77,254);
+}
 .roles-gif{
     padding: 10px 0px 10px 7px;
 }
@@ -39,8 +42,8 @@ main ul li{
     /* width: 76px;*/
 }
 .turbo-gnom{
-    color:rgb(49,166,88);
-    background-color: rgba(49,166,88, 0.2);
+    color:rgb(0,101,187);
+    background-color: rgba(0,101,187, 0.2);
     /* width: 121px;*/
 }
 .streamer{
@@ -123,13 +126,6 @@ main ul li{
 /* mobile version */
 
 @media screen and (min-width: 280px) and (max-width: 415px){
-    .roles-article{
-        background-color: rgb(47,49,54);
-        border-radius: 3px;
-        border-left: 2px solid rgb(192,77,254);
-        padding: 1px 0px 1px 3px;
-        margin-top: 10px;
-    }
     .role-text{
         margin-top: 7.5px;
     }

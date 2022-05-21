@@ -195,7 +195,6 @@ main{
 .article{
     background-color: rgb(47,49,54);
     border-radius: 5px;
-    border-left: 3px solid rgb(192,77,254);
     padding: 1px 0px 1px 7px;
     margin-top: 15px;
 }
