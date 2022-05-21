@@ -354,23 +354,6 @@ main{
 /* 4k */
 
 @media screen  and (min-width: 2560px){
-    /* header */
-
-    header{
-        justify-content: space-between;
-    }
-
-    /* header server logo */
-
-    .server_logo{
-        margin-left: 15%;
-    }
-
-    /* header menu */
-
-    .menu{
-        margin-right: 15%;
-    }
 
     /* main */
 
