@@ -226,7 +226,7 @@ main{
 
 @media screen and (min-width: 280px) and (max-width: 415px){
     body{
-        font-size: 9px;
+        font-size: 12px;
         display: grid;
         grid-template-rows: 70px auto;
         grid-template-areas: 
@@ -238,7 +238,11 @@ main{
         grid-area: header;
     }
     .server_logo{
-        padding: 5px;
+        padding: 7.5px;
+    }
+    .server_logo img{
+        width: 55px;
+        height: 55px;
     }
     main{
         margin-left: 0%;
