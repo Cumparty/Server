@@ -4,9 +4,6 @@ main ul li{
 
 /* main */
 
-.article-roles{
-    border-left: 3px solid rgb(192,77,254);
-}
 .roles-gif{
     padding: 10px 0px 10px 7px;
 }
@@ -29,7 +26,9 @@ main ul li{
     font-size: 16px;
     width: auto;
     padding: 1px 3px 1px 2px;
+    font-weight: bold;
 }
+
 
 /* roles */
 
